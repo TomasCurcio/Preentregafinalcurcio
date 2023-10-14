@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.oferta {
+  padding: 12px;
+  height: auto;
+  background-color: blueviolet;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.titulonav {
+  color: blueviolet !important;
+}
+
+#menu a {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+#menu .buttonnav {
+  font-size: 16px;
+  font-weight: bold;
+  color: blueviolet !important;
+}
+
+main .contenido {
+  max-width: 1100px;
+  width: 100%;
+  margin: 40px auto;
+  display: flex;
+}
+main .contenido .mostrador {
+  width: 100%;
+}
+main .contenido .mostrador .fila {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+main .contenido .mostrador .fila .item {
+  max-width: 210px;
+  padding: 30px;
+  height: 250px;
+  text-align: center;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+main .contenido .mostrador .fila .item .precio {
+  color: blueviolet;
+  font-weight: bold;
+  font-size: 20px;
+}
+main .contenido .mostrador .fila img {
+  width: 100%;
+  margin: 30px 0;
+}
+main .contenido .mostrador .descripcion {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mostrador .fila .item:hover {
+  background-color: #e6e6e6;
+}
+
+#contendor-formulario {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: blueviolet;
+  border-radius: 5px;
+  max-width: 500px;
+}
+
+.btn-color {
+  background-color: blueviolet;
+}
+
+footer {
+  background-color: blueviolet;
+  min-height: 100px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+footer #iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: #f3f3f3;
+}
+
+#map-container {
+  justify-content: center;
+  margin-left: 450px;
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  background-color: #fff;
+}
+#map-container .maptitulo {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+}
+#map-container .mapparrafo {
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nosotros .quienessomos {
+  height: 20px;
+  width: auto;
+  color: blueviolet;
+  text-align: center;
+  font-size: 40px;
+}
+.nosotros p {
+  margin-top: 30px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+.nosotros .cuandosecreo {
+  margin-top: 50px;
+  height: 20px;
+  width: auto;
+  color: blueviolet;
+  text-align: center;
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
