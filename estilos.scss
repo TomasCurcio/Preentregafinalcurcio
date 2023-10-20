@@ -182,3 +182,37 @@ footer {
         font-size:40px;
     }
 }
+
+.mainpreguntasfreq{
+    .preguntasfreq{
+        margin-top: 15px;
+        font-size: 25px;
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .p2{
+        font-size: 16px;
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .subpreguntas{
+        h2{
+            margin-top: 30px;
+        font-size: 25px;
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        }
+
+        .p3{
+            font-size: 16px;
+            color: black;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+}
